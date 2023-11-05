@@ -28,5 +28,5 @@ production:
   database: sde_123o
   username: sde_123o_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL']
+  url: <%= ENV['DATABASE_URL'] %>
   # database: db/production.sqlite3
